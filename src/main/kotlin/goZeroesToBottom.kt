@@ -25,7 +25,7 @@ private fun goZeroesToBottom(data: IntArray, i: Int): IntArray {
             0 -> {
                 var j = i + 1
                 var next = data[j]
-                while (next == 0 && j<data.size-1) {
+                while (next == 0 && j < data.size - 1) {
                     j++
                     next = data[j]
                 }
